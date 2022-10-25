@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#CC000000"
+    android:orientation="vertical"
+    tools:context=".Passenger_updateprofile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="/profile update"
+        android:textColor="#00BCD4"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/passenger_profile_update"
+            android:layout_width="122dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/profile_pic" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#33FFFFFF"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/passenger_update_firstname"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="first name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passenger_update_secondname"
+            android:layout_width="200dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:hint="second name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passenger_update_email"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/passenger_update_phonenumber"
+            android:layout_width="200dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:hint="phone number"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passenger_update_password"
+            android:layout_width="200dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+
+        <Button
+            android:id="@+id/button_passenger_update_details"
+            android:layout_width="220dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="UPDATE"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

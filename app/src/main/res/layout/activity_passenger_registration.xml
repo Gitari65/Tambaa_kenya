@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/passenger_background"
+    tools:context=".Passenger_registration">
+
+    <LinearLayout
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#33C4C4C4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_black"
+            android:text="Create an  account"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp" />
+
+
+        <EditText
+            android:id="@+id/passenger_registration_firstname"
+            android:layout_width="262dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="firstname"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/passenger_registration_secondname"
+            android:layout_width="262dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="secondname"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/passenger_registration_phonenumber"
+            android:layout_width="262dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="phone number"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+
+        <EditText
+            android:id="@+id/passenger_registration_email"
+            android:layout_width="262dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/passenger_registration_password"
+            android:layout_width="262dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+
+        <Button
+            android:id="@+id/passenger_registration_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="REGISTER"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_registration"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="38dp" />
+
+        <TextView
+            android:id="@+id/registration_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

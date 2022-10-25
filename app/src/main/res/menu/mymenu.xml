@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/icon_home"/>
+
+        <item
+            android:id="@+id/drivers"
+            android:title="Drivers"
+            android:icon="@drawable/icon_scooter1"/>
+
+
+
+    </group>
+
+
+    <item
+
+        android:title="ACCOUNT"
+        />
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/icon_account"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/icon_logout1"/>
+    </group>
+
+    <item android:title="OTHERS"/>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@drawable/icon_share"/>
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"
+            android:icon="@drawable/icon_help"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/icon_settings"/>
+
+    </group>
+
+</menu>

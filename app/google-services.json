@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393355839662",
+    "project_id": "tambaa-kenya",
+    "storage_bucket": "tambaa-kenya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393355839662:android:47ef43729f05114d21053f",
+        "android_client_info": {
+          "package_name": "com.example.tambaa_kenya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393355839662-ail3pbc5snm0ot0vjcp27q6t5blqiu4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqsXk2r13qcKBhthZfrl65LIdMroG_FHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393355839662-ail3pbc5snm0ot0vjcp27q6t5blqiu4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
